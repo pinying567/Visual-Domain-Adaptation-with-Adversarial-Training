@@ -23,7 +23,7 @@ Implement Domain Adaptation (from <span style="color: CornflowerBlue;">Source do
 <img src=asset/adda_arch.png width=80%> <br>
 
 - Reference : [Tzeng et al., “Adversarial Discriminative Domain Adaptation”, CVPR 2017](https://arxiv.org/pdf/1702.05464.pdf)
-- For the improved model, we adopt the idea of Adversarial Domain Domain Adaptation (ADDA) but keep the same architecture of the feature extractor and the classifier as my baseline DANN model.
+- For the improved model, we adopt the idea of Adversarial Discriminative Domain Adaptation (ADDA) but keep the same architecture of the feature extractor and the classifier as my baseline DANN model.
 - The main idea of ADDA is to train a different feature extractor for the target domain and keep the feature extractor and the classifier of the source domain fixed.
 - There are two training stages:
     1) Pre-training: Training the feature extractor and the classifier on the source domain, which is the same as the source-only model in baseline since I adopt the same architecture.
